@@ -1,1 +1,0 @@
-prompt ("Value is")
