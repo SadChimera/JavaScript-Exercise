@@ -3,44 +3,41 @@
 <body>
 
 <p id="soapOpera"></p>
-<button type="button"
-onclick="document.getElementById('soapOpera').innerHTML = Number(1)">
-</button>
-<button type="button"
-onclick="document.getElementById('soapOpera').innerHTML = Number(2)">
-</button>
-<button type="button"
-onclick="document.getElementById('soapOpera').innerHTML = Number(3)">
-</button>
-<button type="button"
-onclick="document.getElementById('soapOpera').innerHTML = Number(4)">
-</button>
-<button type="button"
-onclick="document.getElementById('soapOpera').innerHTML = Number(5)">
-</button>
-<button type="button"
-onclick="document.getElementById('soapOpera').innerHTML = Number(6)">
-</button>
-<button type="button"
-onclick="document.getElementById('soapOpera').innerHTML = Number(7)">
-</button>
-<button type="button"
-onclick="document.getElementById('soapOpera').innerHTML = Number(8)">
-</button>
-<button type="button"
-onclick="document.getElementById('soapOpera').innerHTML = Number(9)">
-</button>
+
 
 <button onclick="myFunction()">Calculate</button>
 
 <script>
-    function myFunction() {
-        let person = prompt ("calculate...");
-        if (person != null) {
+    let x = 5;
+    let y = 4;
+    let z = x + y;
+    let w = x - y;
+    let a = x * y;
+    let b = x / y;
+    function myFunction() /*{
+        let number = prompt ("calculate...");
+        if (number != null) {
             document.getElementById("soapOpera").innerHTML =
-            "here"
+            x + y;
+        alert(z) 
+        } */
+        {let nnumber;
+        let result = prompt ("calculates");
+        switch(result) {
+            case x - y:
+                text = w;
+                break;
+            case x / y:
+                text = b;
+                break;
+            case x * y:
+                text = a;
+                break
+            default:
+                text = "Try again...";
         }
-    }
+        document.getElementById(soapOpera).innerHTML = text;
+}
 </script>
 <!--Okay, what I am getting is that
 --function allows this thing to work
